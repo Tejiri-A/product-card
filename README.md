@@ -54,6 +54,7 @@ Users should be able to:
 ### What I learned
 
 In this project, I learned how to display images based on the screen size of the viewer's device using html picture and source element. 
+```
 <picture class="product__image">
           <source srcset="images/image-product-desktop.jpg", media="(min-width: 600px)">
           <img
@@ -61,6 +62,7 @@ In this project, I learned how to display images based on the screen size of the
             alt="Gabrielle Essence Eau De Parfum image"
           />
         </picture>
+```
 I learned how to hide text visually to make it avalailable for screenreaders only ussing css pseudo classes
 
 .visually-hidden:not(:focus):not(:active) {
@@ -75,7 +77,9 @@ I learned how to hide text visually to make it avalailable for screenreaders onl
 
 Finally, I learned how to add the shopping icon to the button using html datablcoks and css
 The html snippet:
+```
 <button class="button" data-icon="shopping-cart">Add to Cart</button>
+```
 
 The css snippet:
 .button[data-icon="shopping-cart"]::before {
