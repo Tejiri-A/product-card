@@ -64,7 +64,7 @@ In this project, I learned how to display images based on the screen size of the
         </picture>
 ```
 I learned how to hide text visually to make it avalailable for screenreaders only ussing css pseudo classes
-
+```
 .visually-hidden:not(:focus):not(:active) {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
@@ -74,6 +74,7 @@ I learned how to hide text visually to make it avalailable for screenreaders onl
   white-space: nowrap;
   width: 1px;
 }
+```
 
 Finally, I learned how to add the shopping icon to the button using html datablcoks and css
 The html snippet:
@@ -82,12 +83,14 @@ The html snippet:
 ```
 
 The css snippet:
+```
 .button[data-icon="shopping-cart"]::before {
   content: "";
   background-image: url(./images/icon-cart.svg);
   width: 15px;
   height: 16px;
 }
+```
 
 
 ### Continued development
